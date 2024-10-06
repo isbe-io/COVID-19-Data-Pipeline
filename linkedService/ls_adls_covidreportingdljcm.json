@@ -1,0 +1,13 @@
+{
+	"name": "ls_adls_covidreportingdljcm",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "\"ls\" is linked service, azure data lake server, storage account name",
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://covidreportingdljcm.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEY4NTBBQTVBLUU1NTctNEVGMy1BNTM5LTZDMzFFQTg1NzY2MV9jY2Q0MTc5MC0yMGYwLTRhNWYtYTZmNS1jZTExZDk4MWJmZjQiDQp9"
+		}
+	}
+}
