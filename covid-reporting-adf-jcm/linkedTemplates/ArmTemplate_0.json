@@ -567,9 +567,16 @@
 					"recurrence": {
 						"frequency": "Day",
 						"interval": 1,
-						"startTime": "2024-10-07T23:42:00",
+						"startTime": "2024-10-07T23:50:00",
 						"timeZone": "Eastern Standard Time",
-						"schedule": {}
+						"schedule": {
+							"minutes": [
+								50
+							],
+							"hours": [
+								23
+							]
+						}
 					}
 				}
 			},
