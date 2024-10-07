@@ -1,0 +1,25 @@
+{
+	"name": "tr_ingest_hostpital_admissions_data",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2024-10-07T23:50:00",
+				"timeZone": "Eastern Standard Time",
+				"schedule": {
+					"minutes": [
+						50
+					],
+					"hours": [
+						23
+					]
+				}
+			}
+		}
+	}
+}
