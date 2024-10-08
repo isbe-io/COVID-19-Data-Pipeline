@@ -537,8 +537,8 @@
 					"recurrence": {
 						"frequency": "Minute",
 						"interval": 1,
-						"startTime": "2024-10-08T00:39:00",
-						"timeZone": "UTC-11"
+						"startTime": "2024-10-08T00:47:00",
+						"timeZone": "Eastern Standard Time"
 					}
 				}
 			},
