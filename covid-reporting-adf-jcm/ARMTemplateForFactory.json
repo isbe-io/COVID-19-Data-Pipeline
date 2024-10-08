@@ -535,10 +535,12 @@
 				"type": "ScheduleTrigger",
 				"typeProperties": {
 					"recurrence": {
-						"frequency": "Minute",
+						"frequency": "Day",
 						"interval": 1,
 						"startTime": "2024-10-08T00:47:00",
-						"timeZone": "Eastern Standard Time"
+						"endTime": "2024-10-12T12:48:06",
+						"timeZone": "Eastern Standard Time",
+						"schedule": {}
 					}
 				}
 			},
